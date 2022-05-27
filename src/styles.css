@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.196), rgba(0, 0, 0, 0.539)), url(assets/img/fondo.jpg);
+    position: relative;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #f5f5f500;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #aaa9a9;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(98, 98, 98, 0.831);
+    border-radius: 10px;
+}

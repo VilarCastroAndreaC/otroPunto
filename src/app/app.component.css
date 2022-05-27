@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Rockness;
+    src: url(../assets/font/Rockness.otf) format("opentype");
+    color: white;
+}
+
+@font-face {
+    font-family: GothamMedium;
+    src: url(../assets/font/GothamFull/Gotham-Medium.otf) format("opentype");
+   
+}
+
+@font-face {
+    font-family: GothamThin;
+    src: url(../assets/font/GothamFull/Gotham-Thin.otf) format("opentype");
+    
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(../assets/font/GothamFull/Gotham-Black.otf) format("opentype");
+   
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url(../assets/font/GothamFull/Gotham-Bold.otf) format("opentype");
+    
+}
+
+h1{
+    font-family: GothamBold;
+    color: white;
+}
+
+h6{
+    font-family: GothamThin;
+    color: white;
+}
+
+a{
+    font-family: GothamThin;
+
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: white;
+    text-decoration: none;
+}
+
+.nopadding{
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.logo img {
+    position: center;
+    width: 25%;
+    transform: translateY(-50%);
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

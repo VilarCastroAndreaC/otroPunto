@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "otropunto-punto"
+  },
+  "targets": {
+    "otropunto-punto": {
+      "hosting": {
+        "fronOtroPunto": [
+          "otropunto-punto"
+        ]
+      }
+    }
+  }
+}

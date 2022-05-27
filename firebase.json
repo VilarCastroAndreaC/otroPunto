@@ -1,0 +1,17 @@
+{
+  "hosting": [
+    {
+      "target": "fronOtroPunto",
+      "public": "dist/fron-otro-punto",
+      "ignore": [
+        "**/.*"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
