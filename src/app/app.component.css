@@ -30,17 +30,27 @@
 
 h1{
     font-family: GothamBold;
-    color: white;
+    color: #414141;
+    margin: auto;
+  display: block;
+}
+
+h4{
+    font-family: GothamBold;
+    color: #414141;
+    font-size: 1rem;
+
 }
 
 h6{
     font-family: GothamThin;
-    color: white;
+    color: #414141;
+    font-weight: bold;
 }
 
 a{
     font-family: GothamThin;
-
+    font-size: 1rem;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -68,3 +78,4 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     margin-left: 50%;
     transform: translateX(-50%);
 }
+

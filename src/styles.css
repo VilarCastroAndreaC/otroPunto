@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.196), rgba(0, 0, 0, 0.539)), url(assets/img/fondo.jpg);
+    background-image:  url(assets/img/fondo.jpg);
     position: relative;
     width: auto;
     background-repeat: no-repeat;
