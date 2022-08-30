@@ -28,28 +28,36 @@
     
 }
 
+@font-face {
+    font-family: GothamBook;
+    src: url(../assets/font/GothamFull/Gotham-Book.otf) format("opentype");
+    
+}
+
 h1{
     font-family: GothamBold;
     color: #414141;
     margin: auto;
   display: block;
+  text-align: center; 
 }
 
 h4{
     font-family: GothamBold;
     color: #414141;
     font-size: 1rem;
-
+    text-align: center;
 }
 
 h6{
     font-family: GothamThin;
-    color: #414141;
+    color: #000000;
     font-weight: bold;
+    text-align: center; 
 }
 
 a{
-    font-family: GothamThin;
+    font-family: GothamBook;
     font-size: 1rem;
 }
 
@@ -70,12 +78,18 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     margin-left: 0px;
 }
 
-
 .logo img {
     position: center;
     width: 25%;
     transform: translateY(-50%);
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #424242;
+    border-color: #424242;
+    
 }
 

@@ -3,3 +3,8 @@
         height: 190vh;
     }
 }
+
+img {
+	cursor: pointer;
+}
+

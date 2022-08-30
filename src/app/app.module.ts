@@ -12,8 +12,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
+import { PackagesComponent } from './components/packages/packages.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,12 +21,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProductsComponent,
     ContactComponent,
     NavComponent,
+    PackagesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
+   
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth())
   ],
